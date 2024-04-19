@@ -1,10 +1,10 @@
 pipeline{
  environment {
-        dockerUserName="victorialloyd"
-        credentialsIdGCP = "exec-cohort-7"
-        namespace = "lbg-trainer"
+        dockerUserName="sikand3"
+        credentialsIdGCP = "9f32e0f3-5bad-467e-a946-1214c23f1b17"
+        namespace = "lbg-3"
         // e.g. lbg-1 for learner1, lbg-2 for learner2
-        projectId= "exec-cohort-7"
+        projectId= "lbg-mea-leaders-c14"
         
         imageName = "vatcalc"
         registry = "${dockerUserName}/${imageName}"
